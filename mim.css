@@ -1,0 +1,76 @@
+body{
+	background-image:url(bb.png);
+}
+.main{
+	background-color: gray;
+    height: 300px;
+    width: 20%;
+    text-align : center;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.main:hover {
+	width: 100%;
+	background-color: pink;
+	text-align: center;
+
+}
+.hidden{
+	background-color: #ff0068;
+    height: 250px;
+    width: 80%;
+    margin: auto;
+    margin-top: -83px;
+    display: none;
+    
+}
+h1{
+	color: yellow;
+	font-size: 100px;
+}
+h2{
+	color: floralwhite;
+    font-size: 70px;
+    margin-top: 10px;
+}
+h3{
+	text-align: left;
+    color: yellow;
+    font-size: 28px;
+    padding: 14px;
+}
+hr{
+	color: #fffe00;
+    border: 2px solid #00ff7e;
+    margin-top: -70px;
+}
+
+.main:hover .hidden{
+	display: block;
+	background-color: red;
+}
+
+.main h3:hover{
+	display: none;
+}
+
+.form{
+	background-color: red;
+	float: right;
+	height: 150px;
+	width: 30%;
+}
+.form img{
+	height: 150px;
+	width: 50%;
+	float: right;
+	margin-top: 0px;
+}
+.form h3{
+	display: inline-block;
+	background-color: red;
+
+
+}
+
